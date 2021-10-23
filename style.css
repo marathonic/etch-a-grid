@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    
+    display: grid;
+    grid-template-rows: repeat(4, 0fr);
+    grid-template-columns: repeat(4, 0fr);
+}
+
+.grid {
+    background-color: lightcoral;
+    border: solid black 1px;
+    width: 20px;
+    height: 20px;
+    padding: 1rem;
+}
+
+.hovering {
+    background-color: lightskyblue;
+    border: solid antiquewhite 1px;
+    width: 20px;
+    height: 20px;
+    padding: 1rem;
+}
+
